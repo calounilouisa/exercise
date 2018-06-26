@@ -1,0 +1,281 @@
+	*{
+		margin: 0px;
+	}
+	#bannerBar{
+		margin: 0px;
+		width: 100%;
+		height: 40px;
+		background-color:rgb(242, 242, 242);
+		border-bottom: solid 1px ;
+		font-size: 12px;
+		z-index: 20;
+	}
+	#sn-bd{
+		position: relative;
+		margin: auto;
+		width: 1230px;
+		height: 32px;
+		z-index: 20;
+	}
+	a{
+		color: black;
+		text-decoration: none;
+	}
+	a:hover{
+		color: red;
+		text-decoration: underline;
+	}
+	#welcomeBar{
+		width: 218px;
+		height: 32px;
+		display: inline-block;
+		padding-top: 10px;
+	}
+	#welcomeBar .gap{
+		margin-left: 8px;
+	}
+	#detailBar{
+		width: 548px;
+		height: 32px;
+		position: absolute;
+		right: 0px;
+		top: 0px;
+		padding-top: 10px;
+	}
+	.detail{
+		position: relative;
+		display: inline-block;
+		width: 74px;
+		height: 30px;
+		margin: auto;
+		text-align: center;
+	}
+	.hideContent{
+		position: absolute;
+		z-index: 50;
+		left: 0px;
+		top: 30px;
+		background-color: white;
+		border:1px solid;
+		display: none;
+		border-top: none;
+	}
+	.hideContent a{
+		display: block;
+	}
+	.detail:hover{
+		background-color: white;
+	}
+	.detail:hover .hideContent{
+		display: inline-block;
+	}
+	
+	#detailCollect{
+		width: 74px;
+		text-align: center;
+	}
+	#scancode{
+		width:175px;
+		height:175px;
+		
+	}
+	#search{
+		width: 100%;
+		height: 45px;
+		position: relative;
+		top: 40px;
+
+	}
+	#headerSearch{
+		width: 100%;
+		height: 45px;
+		position: fixed;
+		background-color: rgb(242, 242, 242);
+		top: 0px;
+		display: none;
+		z-index: 100;
+	}
+	#searchBar, #headerSearchBar {
+		font-size: 0px;
+		width: 628px;
+		height: 40px;
+		border: 2px solid red;
+		margin: auto;
+	}
+	#mainBar, #headerBar {
+		width: 496px;
+		height: 40px;
+		display: inline-block;
+	}
+	#mainBar input, #headerBar input{
+		width: 491px;
+		height: 34px;
+		border: none;
+		outline: none;
+		padding-left: 5px;
+	}
+	#searchBar button, #headerSearchBar button{
+		width: 132px;
+		height: 40px;
+		background-color: red;
+		border: none;
+		cursor: pointer;
+	}
+	#sidebarRight{
+		position: fixed;
+		top: 0px;
+		right: 0px;
+		width: 35px;
+		height:660px;
+		background-color: black;
+	}
+	#side-pos{
+		position: relative;
+		height:620px;
+	}
+
+	#sidebarRight img{
+		width: 35px;
+		height: 35px;
+		cursor: pointer;
+	}
+	#topRight img{
+		position: absolute;
+		bottom: 40px;
+	}
+	#myasset{
+		position: absolute;
+		top: 200px;
+	}
+	#myfavour{
+		position: absolute;
+		top: 400px;
+	}
+	.nameshow{
+		display: none;
+		position: absolute;
+		left: -70px;
+		top: 0px;
+		width: 70px;
+		height: 35px;
+		text-align: center;
+		line-height: 35px;
+		font-size: 12px;
+		background-color: black;
+		color: white;
+		cursor: pointer;
+	}
+	.hoverNameshow:hover .nameshow{
+		display: inline-block;
+	}
+	#sidebarLeft{
+		position: fixed;
+		top: 200px;
+		left: 0px;
+		width: 40px;
+		height: 250px;
+		background-color: rgba(0, 0, 0, 0.3);
+		display: none;
+	}
+	#sidebarLeft>div{
+		width: 36px;
+		height: 36px;
+		margin-top:20px;
+		background-color: rgba(0, 0, 0, 0.4);
+		color:white;
+		text-align: center;
+		font-size: 13px;
+		cursor: pointer;
+	}
+	#sidebarLeft>div:hover{
+		background-color: rgb(0, 255, 0);
+	}
+	#sidebarLeft>div.active{
+		background-color: rgb(0, 0, 0);
+	}
+	#mainBlock{
+		width: 1230px;
+		margin: 50px auto;
+	}
+	#mainBlock > div{
+		width: 1230px;
+		height: 450px;
+		text-align: center;
+		font-size: 40px;
+		background-color: yellow;
+		margin-top: 10px;
+		border:1px dashed rgba(0, 0, 0, 0.5);
+
+	}
+	#container{
+		position: relative;
+		width: 1150px;
+		height: 400px;
+		top: 20px;
+		margin: 0 auto;
+	}
+	#lunboBox{
+		position: relative;
+		margin: 0 auto;
+		height: 400px;
+		width: 1150px;
+		overflow: hidden;
+
+	}
+	#picContainer{
+		position: absolute;
+		height: 400px;
+		width: 8050px;
+	}
+	#picContainer > img{
+		float: left;
+	}
+	#arrows{
+		position: relative;
+		top: -220px;
+		width: 1150px;
+		margin: 0 auto;
+	}
+	.arrow{
+		position: absolute;
+		display: inline-block;
+		width: 40px;
+        height: 40px;
+        text-align: center;
+        vertical-align: 39px;
+        font-size: 36px;
+        font-weight: bold;
+        line-height: 39px;
+        color: #fff;
+        background-color: RGBA(0, 0, 0, .3);
+		cursor: pointer;
+	}
+	.arrow:hover {
+    background-color: RGBA(0, 0, 0, .7);
+	}
+	#prev{
+		left: 0px
+	}
+	#next{
+		right: 0px;
+	}
+	#sliderNav{
+		position: relative;
+		top: -50px;
+		width: 1150px;
+		margin:0 auto;
+	}
+	li{
+		background: #000;
+	    width: 25px;
+	    height: 5px;
+	    display: inline-block;
+	    overflow: hidden;
+	    margin-left: 5px;
+	    cursor: pointer;
+	    opacity: .3;
+	}
+	.selected{
+		background: #fff;
+		opacity: .6;
+	}
